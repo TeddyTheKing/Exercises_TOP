@@ -14,6 +14,14 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.left, /* Vytvořenim 2 containeru left a right justify-content: space-between odsune všechno v daných containerech na kraje headeru */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -46,5 +54,9 @@ a {
 }
 
 ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
   list-style-type: none;
 }
