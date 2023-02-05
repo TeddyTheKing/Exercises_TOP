@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    text-align: center; /* Zarovná text na celý stránce neni potřeba z nadpisu dělat flex item */
   }
   
   img {
@@ -11,7 +11,7 @@ body {
   .title {
     font-size: 36px;
     font-weight: 900;
-    margin-bottom: 32px;
+    margin-bottom: 32px; /* Mezera pod itemem */
   }
 
   .images {
@@ -20,7 +20,7 @@ body {
     gap: 52px;
   }
 
-  .img {
+  .img { /* Maximální šířka */
     width: 200px;
   }
   
